@@ -19,7 +19,7 @@ echo "compiling x264..."
   cd ..
 
 echo "compiling webm"
-  sudo apt-get remove libvpx-devcd libvpx
+  sudo apt-get remove libvpx-dev
   git clone http://git.chromium.org/webm/libvpx.git
   cd libvpx
   ./configure
